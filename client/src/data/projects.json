@@ -1,145 +1,42 @@
 [
-    {
-        "title": "ImageShoppr",
-        "description": "This React/Node.js app utilizes the AI image recognition capabilities of the GoogleVision API -- and makes shopping a fun, easy and social experience. With ImageShoppr you can connect with your friends and find out if they have purchased similar items.",
-        "images": ["shoppr.jpg"],   
-        "live": "https://polar-tor-03271.herokuapp.com/",
-        "github": "https://github.com/b0rgbart3/ImageShoppr",
-        "features": [""],
-        "tech": ["React","Node.js","Express", "MySQL","Sequelize"],
-        "shields": ["react","node", "express", "sql","sequelize"]
-    },
-    {
-        "title": "My Google Bookshelf",
-        "description": "Full Stack MERN application to search for books from the Google Book API, and store them in a Mongo data base.",
-        "images": ["googlebooks.jpg"],   
-        "live": "https://shielded-crag-85117.herokuapp.com/",
-        "github": "https://github.com/b0rgbart3/GoogleBookShelf",
-        "features": [""],
-        "tech": ["React","Node.js","Express","MongoDB","Mongoose"],
-        "shields": ["react","node","express","mongo","mongoose"]
-    },
-    {
-        "title": "Space Force",
-        "description": "This app uses the NASA public image API to search for images by topic or key word - allowing users to learn about science in a fun and interactive way.",
-        "images": ["spaceforce.jpg"],   
-        "live": "https://enigmatic-anchorage-91060.herokuapp.com/",
-        "github": "https://github.com/b0rgbart3/spaceforce2",
-        "features": [""],
-        "tech": ["React", "Redux"],
-        "shields": ["react", "redux"]
-    },
-    {
-        "title": "LightBurst 2.0",
-        "description": "The game consists of a square grid of lights. When the game starts, a random pattern of these lights is switched on. The goal of the puzzle is to switch all the lights off. Originally writen in Objective C, I converted the codebase to Flutter for cross platform compatibility including iOS and Android  ",
-        "images":["lightburst2.jpg"],
-        "live":"https://stormy-castle-26232.herokuapp.com/#/",
-        "github":"https://github.com/b0rgbart3/box",
-        "features": [""],
-        "tech": ["Flutter", "Dart"],
-        "shields": ["flutter", "dart"]
-    },
-    {
-        "title": "LightBurst",
-        "description": "A puzzle game for the iPhone, iPad and any iOS device.  The game consists of a square grid of lights. When the game starts, a random pattern of these lights is switched on. Pressing any of the lights will toggle it and the adjacent lights. The goal of the puzzle is to switch all the lights off.",
-        "images":["lightburst.jpg"],
-        "live":"https://ddworks.org/lightburst.php",
-        "github":"https://github.com/b0rgbart3/LightBurst",
-        "features": [""],
-        "tech": ["Objective-C", "ios", "xcode"],
-        "shields": ["objc", "ios", "xcode"]
-    },
-    {
-        "title": "The Loom",
-        "description": "This is a content management system, built for an online-university, built with Angular 10 and Node.JS, using express and MongoDB, hosted on AWS and Atlas.",
-        "images":["loom.jpg"],
-        "live":"https://thawing-mountain-56615.herokuapp.com", 
-        "github":"https://github.com/b0rgbart3/Loom2",
-        "features": [""],
-        "tech": ["Node.js", "Angular10", "MongoDB"],
-        "shields": ["node","angular", "mongo"]
-    },
-    {
-        "title": "MiddleGround",
-        "description": "This app allows users to view social media posts from a spectrum of news sources, based on a keyword search.  Using the GoogleFact Check API it displays a truth rating for various articles and generates a word cloud to showing the hot topics of each side of the political spectrum.",
-        "images":["middleground.jpg"],
-        "live":"https://fast-cliffs-31437.herokuapp.com/",
-        "github":"https://github.com/b0rgbart3/Some_Middle_Ground",
-        "features": [""],
-        "tech": ["Node.js","Express","MySQL","Handlebars"],
-        "shields": ["node","express","sql","handlebars"]
-    },
-    {
-        "title": "Name List",
-        "description": "This app displays a list of names such as an employee directory, and allows you to search for a person based on any keyword filter.  It also allows you to sort the list of names in ascending or descending order of any column, such as first name, last name, phone number, or department.",
-        "images": ["list.jpg"],   
-        "live": "https://b0rgbart3.github.io/name_search/",
-        "github": "https://github.com/b0rgbart3/name_search",
-        "features": [""],
-        "tech": ["React","Node.js","Express","MongoDB","Mongoose"],
-        "shields": ["react","node","express","mongo","mongoose"]
-    },
-    {
-        "title": "Memory Lane",
-        "description": "This app is a fun little game that tests your visual memory.  It displays a random sequence of twelve cards and the user tries to guess a unique card as many times as they can. It tracks the correct number of guesses and your high score. It's fun and surprisingly difficult.",
-        "images": ["clicky.jpg"],   
-        "live": "https://b0rgbart3.github.io/clicky/",
-        "github": "https://github.com/b0rgbart3/clicky",
-        "features": [""],
-        "tech": ["React","Node.js","Express","MongoDB","Mongoose"],
-        "shields": ["react","node","express","mongo","mongoose"]
-    },
-
-    {
-        "title": "Supper",
-        "description": "An MVC application using Express Handlebars, and a custom ORM in node.js - demonstrating full CRUD capabilities.",
-        "images":["supper.jpg"],
-        "live":"https://fierce-oasis-15914.herokuapp.com/",
-        "github":"https://github.com/b0rgbart3/supper",
-        "features": [""],
-        "tech": ["Node.js", "MySQL", "Express", "Handlebars"],
-        "shields": ["node","sql","express","handlebars","custom_orm"]
-    },
-
-    {
-        "title": "The Weather App",
-        "description": "This app pulls live weather and forecast data from Open-Weather-Map.org's API.  It allows users to view the weather and get a 5 day forecast in multiple cities, to help them better plan their trips.  The city choices are saved so they can easily check the weather again at another time.",
-        "images":["weather.jpg"],
-        "live":"https://b0rgbart3.github.io/weather-dashboard/",
-        "github":"https://github.com/b0rgbart3/weather-dashboard",
-        "features": [""],
-        "tech": ["Javascript","JQuery"],
-        "shields": ["js","jq"]
-        
-    },
-    {
-        "title": "Quizzler",
-        "description": "This app sets up a simple set of timed quiz questions in a fun game like interface with sound effects and current score to test users knowledge of a particular subject.  It also allows users to save their high scores and their initials to compare and compete against their peers.",
-        "images":["quizzler.jpg"],
-        "live":"https://b0rgbart3.github.io/code-quiz2/",
-        "github":"https://github.com/b0rgbart3/code-quiz2",
-        "features": [""],
-        "tech": ["Javascript","JQuery"],
-        "shields": ["js","jq"]
-    },
-    {
-        "title": "JaneMeredith.com",
-        "description": "A custom website designed and built for Jane Meredith, an Author of metaphysical studies.",
-        "images":["jane.jpg"],
-        "live":"http://janemeredith.com",
-        "github":"https://github.com/b0rgbart3/jane_meredith",
-        "features": [""],
-        "tech": ["Php", "Javascript"],
-        "shields": ["js", "php" ]
-    },
-    {
+        {
         "title": "JerryFrost.com",
-        "description": "A custom website designed and built for Jerry Frost, an Artist in San Francisco.",
-        "images":["jerry.jpg"],
+        "description": "This is a custom portfolio website designed and built for Jerry Frost, an artist in San Francisco, California.",
+        "images":["jerry2.jpg"],
         "live":"http://jerryfrost.com",
-        "github":"https://github.com/b0rgbart3/jerryfrost",
+        "github":"https://github.com/b0rgbart3/jerryfrost2025",
         "features": [""],
-        "tech": ["Php", "Javascript", "MySQL"],
-        "shields": ["js", "php", "sql" ]
+        "tech": ["Php", "Javascript", "HTML 5", "CSS"],
+        "shields": ["php", "js", "html", "css"]
+    },
+    {
+        "title": "AmyGraham.art",
+        "description": "This is a custom portfolio website designed and built for artist Amy Graham",
+        "images":["amy.jpg"],
+        "live":"https://amygraham.art",
+        "github":"https://github.com/b0rgbart3/amygraham",
+        "features": [""],
+        "tech": ["Javascript","HTML 5", "CSS"],
+        "shields": ["js", "html", "css" ]
+    },
+    {
+        "title": "Dority Design Works",
+        "description": "A custom website designed and built for my graphic design and web hosting consulting business - Dority Design Works",
+        "images":["ddw.jpg"],
+        "live":"https://ddworks.org",
+        "github":"https://github.com/b0rgbart3/amygraham",
+        "features": [""],
+        "tech": ["Php", "Javascript","HTML 5", "CSS"],
+        "shields": ["php", "js", "html", "css" ]
+    },
+        {
+        "title": "Bart Dority Online",
+        "description": "This is my portfolio website.  It uses a NodeJS backend API server which handles the contact form, and React for the frontend. It is hosted on my own virtual private server where I host my clients websites.",
+        "images":["bd_portfolio.jpg"],
+        "live":"https://bartdority.online",
+        "github":"https://github.com/b0rgbart3/portfolio2025",
+        "features": [""],
+        "tech": ["NodeJS", "React", "Javascript","HTML 5", "CSS"],
+        "shields": ["node", "react", "js", "html", "css" ]
     }
 ]

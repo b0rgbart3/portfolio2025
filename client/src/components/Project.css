@@ -141,6 +141,7 @@
     text-align:left;
     line-height:1.4em;
     color:rgb(91, 98, 104);
+    padding-top: 14px;
     
   }
 
@@ -214,7 +215,7 @@ padding-left:40px;
     float:right;
     box-sizing: border-box;
     position: relative;
-    top:-25px;
+    top:-5px;
     left:8px;
     border-radius:50%;
     width:32px;

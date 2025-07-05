@@ -10,12 +10,7 @@ import pointerIcon from '../images/icons/white_arrow.svg';
 function Skills() {
   const [chartStyle, setChartStyle] = useState("chart");
   const techObjects = [
-        {
-      "tech": "Javascript",
-      "shield": "js",
-      "duration": "10+ years",
-      "projects": "All"
-      },
+
     {
     "tech": "React",
     "shield": "react",
@@ -28,6 +23,12 @@ function Skills() {
     "duration": "3 years",
     "projects": "Grid Dynamics"
     },
+            {
+      "tech": "Javascript",
+      "shield": "js",
+      "duration": "10+ years",
+      "projects": "All"
+      },
         {
     "tech": "NodeJS",
     "shield": "node",
