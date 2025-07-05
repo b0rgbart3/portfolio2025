@@ -1,0 +1,51 @@
+.Projects {
+    display:inline-block;
+    box-sizing: border-box;
+    width:100%;
+    text-align:center;
+    text-align:center;
+    padding:0;
+    padding-bottom:300px;
+    padding-top:0;
+    margin-top:20px;
+    min-height:1400px;
+ 
+}
+
+.projectslogo {
+    font-size:36px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align:left;
+    margin-top:0px;
+    margin-left:0px;
+    line-height:1em;
+    margin-left:40px;
+    margin-bottom:30px;
+    text-align: center;
+  }
+
+
+  @media only screen and (min-width:1140px) {
+    .Projects {
+  
+    }
+
+  }
+
+  @media only screen and (min-width:1440px) {
+    .Projects {
+      
+    }
+
+  }
+
+
+@media only screen and (max-width:740px) {
+  .Projects  {
+      margin-top:120px;
+  }
+}
+
+

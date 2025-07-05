@@ -1,0 +1,172 @@
+@import url("https://use.typekit.net/eoa5mqu.css");
+
+@import "./Colors.scss";
+
+html {
+  background-color: $base-color;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.medium {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.book {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.demi {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.futBold {
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 44px;
+}
+
+.App {
+  text-align: center;
+  color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  user-select: none;
+}
+
+.hidden {
+  opacity:0;
+}
+.visible {
+  opacity:1;
+}
+
+
+
+.mbutton {
+  margin:0;
+  display:inline-block;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color:$button-color;
+  padding:6px;
+  padding-left:20px;
+  padding-right:20px;
+  text-transform: uppercase;
+  font-size:18px;
+  color:white;
+  border-radius:8px;
+  user-select:none;
+  cursor:pointer;
+  text-align:center;
+  margin-right:10px;
+  margin-bottom:20px;
+  position:relative;
+
+  min-width:130px;
+}
+
+.mbutton:hover {
+  background-color:$button-hover;
+}
+
+.mbutton:active {
+  border:0;
+  outline:0;
+  background-color:$button-active;
+}
+
+.mbutton:focus {
+  border:0;
+  outline:0;
+  background-color:$button-focus;
+
+}
+.mbutton.visible{
+  left:0px;
+  opacity:1;
+}
+
+.mbuttonEndorse {
+  margin:0;
+  display:inline-block;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color:$button-color-alt;
+  padding-bottom:15px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size:16px;
+  color:white;
+  border-radius:8px;
+  user-select:none;
+  cursor:pointer;
+  text-align:center;
+  margin-right:10px;
+  margin-bottom:20px;
+  position:relative;
+  min-width:130px;
+  left:calc(90% - 150px);
+}
+
+.mbuttonEndorse:hover {
+  background-color: $loud-color;
+  box-shadow: 0 0 20px $button-color;
+}
+
+.mbuttonEndorse img {
+  width: 50px;
+  height: 30px;
+  position: relative;
+  top: 12px;
+}
+
+/*  ClearFix  */
+/*  The ClearFix by Tony Aslett and Nicholas Gallagher */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* IE6&7 */
+}

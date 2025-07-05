@@ -1,0 +1,101 @@
+
+@import "../Colors.scss";
+
+.endBox {
+    color:black;
+    text-align:left;
+    box-sizing: border-box;
+    font-family: futura-pt, sans-serif;
+    margin-top:0px;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    margin:auto;
+}
+
+#endH2 {
+    text-transform: uppercase;
+    color:$button-color;
+    font-size:34px;
+    font-weight:500;
+    letter-spacing:-.03em;
+    border-bottom:2px solid $button-color;
+}
+
+
+.endPic {
+    width:180px;
+    border-radius:50%;
+    box-shadow:0 0 28px $button-color;
+}
+
+.source {
+    display:inline-block;
+    float:none;
+    width:100%;
+    padding-right:20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: futura-pt, sans-serif;
+    padding-left:20px;
+}
+.source p {
+    line-height:1em;
+    padding-top:6px;
+    margin-top:0;
+    padding-bottom:0;
+    margin-bottom:0;
+    font-size:16px;
+}
+.connection {
+ margin-top:15px;
+ color:#999999;
+ padding-top:2px;
+ margin-top:14px;
+ font-size:15px;
+ line-height:1.3em;
+ padding-bottom:10px;
+}
+
+.quote {
+    font-size:19px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#777777;
+    padding-top:20px;
+    line-height:1.4em;
+    padding-left:5%;
+    padding-right:5%;
+    box-sizing: border-box;
+    float:none;
+}
+
+.endorsementObject {
+   box-sizing:border-box;
+margin-bottom:24px;
+padding-bottom:24px;
+border-bottom:2px solid $button-color;
+}
+
+@media only screen and (min-width:740px) {
+    .source {
+        display:inline-block;
+        float:left;
+        width:26%;
+        padding-right:20px;
+    }
+    .quote {
+        float:left;
+        width:74%;
+        padding-left:2%;
+        padding-right:2%;
+    }
+    .endBox {
+
+    }
+    .endPic {
+        width:156px;
+    }
+}
+

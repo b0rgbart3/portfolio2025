@@ -1,0 +1,83 @@
+.desktopMenu {
+    margin-bottom: 0px;
+
+}
+
+.dmenuList {
+    list-style: none;
+    text-align: left;
+    font-family: futura-pt, sans-serif;
+    font-size: 25px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0;
+    padding-top: 0px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.dmenuList li {
+    padding-left: .25em;
+    padding-right: .25em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    color: #324f5e;
+    opacity: .45;
+    position: relative;
+    left: 0px;
+    top: -100px;
+    transition: all 1s;
+}
+
+.dmenuList li.state2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    color: #3e5f70;
+    opacity: .25;
+    left: 0px;
+    top: 0;
+}
+
+.dmenuList li.active {
+    color: black;
+    opacity: 1;
+}
+
+.dmenuList li:hover {
+    opacity: 1;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dmenuList li:active {
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dmenuList li:focus {
+    cursor: pointer;
+    user-select: none;
+}
+
+.dmenuList li:visited {
+    cursor: pointer;
+    user-select: none;
+}
+
+@media only screen and (max-width:740px) {
+    .desktopMenu {
+        display: none;
+    }
+}
