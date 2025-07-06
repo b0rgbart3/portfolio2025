@@ -32,7 +32,7 @@ app.use((req, res, next) => {
   app.use(express.static("client/build"));
 // }
 
-const PORT = 5000;
+const PORT = 5001;
 
 // all routes are in here
 app.use(routes);

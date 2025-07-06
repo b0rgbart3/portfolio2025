@@ -10,6 +10,7 @@ import sequelize from "../images/shields/sequelize.png";
 function Shield(props) {
   const [shieldStyle, setShieldStyle] = useState("hidden");
   let shields = [ react, node, express, sql, sequelize ];
+  let techs = ['React', 'NodeJS', 'Express', 'SQL', 'Sequelize'];
   let imageSource = shields[props.shieldNumber];
 
 
@@ -30,6 +31,7 @@ function Shield(props) {
   return (
     <div className={ "shieldContainer " + shieldStyle } key={props.index}>
       <img src={imageSource} className="shield" alt="shield"/>
+      <p>{techs[props.shieldNumber]}</p>
     </div>
   );
 }

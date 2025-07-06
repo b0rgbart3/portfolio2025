@@ -36,7 +36,7 @@ function Home() {
     </div>
 
     <div className={"bartsShields "}>
-      <p className="shieldTitle">Current Development Stack:</p>
+      <p className="shieldTitle">Current Preferred Development Stack:</p>
 
       <Shield shieldNumber="0" animate="true" />
       <Shield shieldNumber="1" animate="true"  />

@@ -289,9 +289,9 @@ As an independant contractor, I design, build and maintain my client’s website
   </ul>
 </div>
 
-<h2>Recent Projects:</h2>
-<div className='projects'>
-<div className='project'>
+{/* <h2>Recent Projects:</h2>
+<div className='projects'> */}
+{/* <div className='project'>
 <div className='projectTitle'>ImageShoppr</div>
 <br></br>Makes shopping a fast, fun and social experience. It uses the Google A.I. Vision API to scan an image and identify multiple products.  It then uses the Rainforest API to find those products on Amazon.   You can also connect with your friends and find out if they bought similar items. This project features a responsive layout, a global state object, and React Hooks.
 <br></br>
@@ -306,24 +306,24 @@ As an independant contractor, I design, build and maintain my client’s website
 Searches, filters, and displays social media posts from a range of news organizations so users can see how different topics are trending across the political spectrum, and get a broader range of news perspectives in a single interface. <br></br>
 <strong>Technologies used:</strong> Node, Express, Axios, Handlebars, Javascript, HTML5, CSS3, the NY Times API, the News.org API and the Google Fact Check API hosted on Heroku.<br></br>
 <a href='https://fast-cliffs-31437.herokuapp.com/' className='pbutton'>live website</a>
-<a href='https://github.com/b0rgbart3/Some_Middle_Ground'  className='pbutton'>github</a></div>
+<a href='https://github.com/b0rgbart3/Some_Middle_Ground'  className='pbutton'>github</a></div> */}
 
-<div className='project'>
+{/* <div className='project'>
 <div className='projectTitle'>The Loom</div><br></br>
 A Content Management System for an online University.  Features include:User authentication, registration, an administration dashboard, instant messaging and the ability to upload various content formats including video and pdfs. <br></br>
 <strong>Technologies used:</strong> Angular 2+, Sass, Materialize, Node, Express, HTML 5, and CSS 3.  Hosted on Heroku with a MongoDB database on CloudAtlas and assets stored in an s3 bucket on AWS.  <br></br><strong>Client:</strong> Reclaiming Collective, San Francisco, CA.<br></br>
  <a href='https://thawing-mountain-56615.herokuapp.com/' className='pbutton'>live website</a>
 <a href='https://github.com/b0rgbart3/Loom2' className='pbutton'>github</a><br></br>
-</div>
-<div className='project'><div className='projectTitle'>
+</div> */}
+{/* <div className='project'><div className='projectTitle'>
 Jerry Frost</div> <br></br>
 Portfolio website featuring a mobile friendly responsive layout, a catalog of images, an administration dashboard for uploading images and allows the user and administrator to sort the images by title, date, or category. <br></br>
 <strong>Technologies used:</strong> PHP 7, HTML 5, CSS 3, Javascript and MySQL, hosted on DreamHost. <br></br>
 <strong>Client:</strong> Jerry Frost, Artist, San Francisco, CA<br></br>
 <a href='https://jerryfrost.com/' className='pbutton'>live website</a>
 <a href='https://github.com/b0rgbart3/jerryfrost' className='pbutton'>github</a>
-</div>
-<div className='project'><div className='projectTitle'>
+</div> */}
+{/* <div className='project'><div className='projectTitle'>
 Willow Kelly</div> <br></br>
 Brochure website featuring a mobile friendly responsive layout and a contact form. <br></br>
 <strong>
@@ -331,8 +331,8 @@ Technologies used:</strong> PHP 7, HTML 5, CSS 3, and Javascript.
 <br></br> <strong>Client:</strong> Willow Kelly, Charlottesville, VA
 <br></br>
 <a href='http://willowkelly.com' className='pbutton'>live website</a>
-</div>
-<div className='project'><div className='projectTitle'>
+</div> */}
+{/* <div className='project'><div className='projectTitle'>
 Jane Meredith</div> <br></br>
 Brochure website featuring a mobile friendly responsive layout and an image slider that highlights recently published books.
 <br></br> 
@@ -342,8 +342,8 @@ Technologies used:</strong>  PHP 7, HTML 5, CSS 3 and Javascript.  <br></br>
 <br></br>
 <a href='https://janemeredith.com/' className='pbutton'>Live website</a>
 <a href='https://github.com/b0rgbart3/jane_meredith' className='pbutton'>github</a>
-</div>
-<div className='project'>
+</div> */}
+{/* <div className='project'>
 <div className='projectTitle'>LightBurst</div> <br></br>
 iOS mobile app: a fun graphic puzzle-style game.<br></br>
 <strong>
@@ -351,7 +351,7 @@ Technologies used:</strong> Objective C, and X-Code.
 <br></br>
 <a href='https://github.com/b0rgbart3/LightBurst' className='pbutton'>More Info</a>
 <a href='https://github.com/b0rgbart3/LightBurst' className='pbutton'>github</a></div>
-</div>
+</div> */}
 
 <h2>Education</h2>
 <div className='education'>
