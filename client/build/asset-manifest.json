@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.821379a7.css",
-    "main.js": "/static/js/main.349918e0.js",
+    "main.css": "/static/css/main.3aad8b44.css",
+    "main.js": "/static/js/main.723dccc4.js",
     "static/media/jerry.jpg": "/static/media/jerry.b867a73ea393680509ee.jpg",
     "static/media/jane.jpg": "/static/media/jane.ea92216b573ded076229.jpg",
     "static/media/lightburst.jpg": "/static/media/lightburst.d5c9b6311f3b4771ac9a.jpg",
@@ -47,8 +47,8 @@
     "static/media/python.png": "/static/media/python.55677d7f3bc6207d6a80.png",
     "static/media/custom_orm.png": "/static/media/custom_orm.fbc7f0bd21fbce691b5d.png",
     "static/media/mongoose.png": "/static/media/mongoose.257adcb6eeea6bed9237.png",
-    "static/media/sequelize.png": "/static/media/sequelize.ea3345a6d546f94ec49d.png",
     "static/media/jq.png": "/static/media/jq.902238c3a645ea766c55.png",
+    "static/media/sequelize.png": "/static/media/sequelize.450d249ba8a44904243e.png",
     "static/media/php.png": "/static/media/php.1741f403e03b3904572b.png",
     "static/media/dart.png": "/static/media/dart.2c11158a16fec91e1a5e.png",
     "static/media/objc.png": "/static/media/objc.10c3c7181e255d2571db.png",
@@ -75,11 +75,11 @@
     "static/media/linked_in_black.svg": "/static/media/linked_in_black.da787931118b67e2d304e486851fd6a3.svg",
     "static/media/white_arrow.svg": "/static/media/white_arrow.ebff3568a6926e182697311cfd74e8f3.svg",
     "static/media/closer.svg": "/static/media/closer.db46d04ef5c352dd956b.svg",
-    "main.821379a7.css.map": "/static/css/main.821379a7.css.map",
-    "main.349918e0.js.map": "/static/js/main.349918e0.js.map"
+    "main.3aad8b44.css.map": "/static/css/main.3aad8b44.css.map",
+    "main.723dccc4.js.map": "/static/js/main.723dccc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.821379a7.css",
-    "static/js/main.349918e0.js"
+    "static/css/main.3aad8b44.css",
+    "static/js/main.723dccc4.js"
   ]
 }

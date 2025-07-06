@@ -112,6 +112,8 @@ function Resume() {
 <div className='skillCol'>
 <div className='skillTitle'>Programming Languages</div>
 <div className='skillCol2'>
+          <div className='skill'>Typescript</div>
+        <div className='year'>2 years</div>
         <div className='skill'>Javascript</div>
         <div className='year'>5 years</div>
         <div className='skill'>PHP</div>
@@ -149,16 +151,17 @@ function Resume() {
 <div className='skillCol'>
       <div className='skillTitle'>Platforms</div>
       <div className='skillCol2'>
-      <div className='skill'>WordPress</div>
-        <div className='year'>2 years</div>
+
         <div className='skill'>React</div>
-        <div className='year'>1 year</div>
+        <div className='year'>3 years</div>
         <div className='skill'>Angular</div>
         <div className='year'>1 year</div>
         <div className='skill'>Flutter</div>
         <div className='year'>1 year</div>
         <div className='skill'>Ruby on Rails</div>
         <div className='year'>1 year</div>
+        <div className='skill'>WordPress</div>
+        <div className='year'>2 years</div>
 
         </div>
 </div>
