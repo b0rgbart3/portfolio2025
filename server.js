@@ -4,6 +4,7 @@ const express = require("express");
 const app = express();
 // const mongoose = require("mongoose");
 const routes = require("./routes");
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 // Define middleware here
 // app.use(express.urlencoded({ extended: true }));
@@ -11,6 +12,11 @@ app.use(express.json());
 
 // app.use(express.json({ limit: '1mb' }));
 // app.use(express.urlencoded({ extended: true, limit: '1mb' }));
+
+app.use('/googlebooks', createProxyMiddleware({
+  target: 'http://localhost:8001',
+  changeOrigin: true,
+}));
 
 app.use((req, res, next) => {
   console.log("Incoming request:", req.method, req.url);
@@ -32,7 +38,7 @@ app.use((req, res, next) => {
   app.use(express.static("client/build"));
 // }
 
-const PORT = 5001;
+const PORT = 8000;
 
 // all routes are in here
 app.use(routes);
