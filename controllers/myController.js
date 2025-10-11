@@ -21,7 +21,7 @@ const  AWS = require( 'aws-sdk' );
 
 async function getSmtpCredentials() {
   const client = new AWS.SecretsManager();
-  const secretName = 'bartdorityportfolio/SMTP';
+  const secretName = 'portfolioEmailCreds';
 
   const data = await client.getSecretValue({ SecretId: secretName }).promise();
   const secret = JSON.parse(data.SecretString);
