@@ -7,6 +7,7 @@ function Projects() {
   const [state ] = usePortfolioContext();
 
 
+  console.log('BD: state projects: ', state.projects);
   return (
     <div className="Projects group">
 
