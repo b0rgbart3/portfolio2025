@@ -25,12 +25,12 @@ async function main( messageObject ) {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
+    host: "email-smtp.us-west-1.amazonaws.com",
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: process.env.GMAIL_USERNAME, // generated ethereal user
-      pass: process.env.GMAIL_PASSWORD, // generated ethereal password
+    user: process.env.SES_SMTP_USER, // your SES SMTP username
+    pass: process.env.SES_SMTP_PASS, // your SES SMTP password
     },
   });
 
