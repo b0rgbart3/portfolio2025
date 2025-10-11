@@ -16,35 +16,6 @@ var request = sg.emptyRequest({
 });
 
 const nodemailer = require("nodemailer");
-const  AWS = require( 'aws-sdk' );
-
-
-async function getSmtpCredentials() {
-  const client = new AWS.SecretsManager();
-  const secretName = 'bartdorityportfolio/SMTP';
-
-  const data = await client.getSecretValue({ SecretId: secretName }).promise();
-  const secret = JSON.parse(data.SecretString);
-
-  return {
-    user: secret.SES_SMTP_USER,
-    pass: secret.SES_SMTP_PASS,
-  };
-}
-
-async function createTransporter() {
-  const { user, pass } = await getSmtpCredentials();
-
-  const transporter = nodemailer.createTransport({
-    host: 'email-smtp.us-west-1.amazonaws.com',
-    port: 465,
-    secure: true,
-    auth: { user, pass },
-  });
-
-  return transporter;
-}
-
 
 // async..await is not allowed in global scope, must use a wrapper
 async function main( messageObject ) {
@@ -53,25 +24,14 @@ async function main( messageObject ) {
   // let testAccount = await nodemailer.createTestAccount();
 
   // create reusable transporter object using the default SMTP transport
-  AWS.config.update({ region: 'us-west-1' }); // N. California
-
-  // let transporter = nodemailer.createTransport({
-  //   host: "email-smtp.us-west-1.amazonaws.com",
-  //   port: 465,
-  //   secure: true, // true for 465, false for other ports
-  //   auth: {
-  //   user: process.env.SES_SMTP_USER, // your SES SMTP username
-  //   pass: process.env.SES_SMTP_PASS, // your SES SMTP password
-  //   },
-  // });
-
-    const transporter = await createTransporter();
-
-  await transporter.sendMail({
-    from: 'contact@bartdorityportfolio.online',
-    to: 'b0rgbart3@gmail.com',
-    subject: 'Test Email via SES',
-    text: 'Hello from AWS SES + Secrets Manager!',
+  let transporter = nodemailer.createTransport({
+    host: "email-smtp.us-west-1.amazonaws.com",
+    port: 465,
+    secure: true, // true for 465, false for other ports
+    auth: {
+    user: process.env.SES_SMTP_USER, // your SES SMTP username
+    pass: process.env.SES_SMTP_PASS, // your SES SMTP password
+    },
   });
 
   // send mail with defined transport object
@@ -104,7 +64,7 @@ async function main( messageObject ) {
 
 
   let info = await transporter.sendMail({
-    from: 'contact@bartdorityportfolio.online', // sender address
+    from: '"Bart Dority" <b0rgBart3@gmail.com>', // sender address
     to: "b0rgBart3@gmail.com, bartdority@gmail.com", // list of receivers
     subject: "A Message from BartDorityPortfolio.online", // Subject line
     text: textMessage, // plain text body
