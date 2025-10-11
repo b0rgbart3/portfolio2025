@@ -46,7 +46,7 @@ async function main( messageObject ) {
   // Send two email messages -- first, send this message on to myself,
   // so that I know someone filled out my form.
   // Secondly, I want to send whomever filled it out a "receipt".
-  let textMessage = "You have received the following message from your contact form on your website.\t\n";
+  let textMessage = "YMessage from your Bart Dority Portfolio Online website.\t\n";
   textMessage += "--------------\t\n";
   textMessage += "From: " + messageObject.fullname + "\t\n";
   textMessage += "Email: " + messageObject.email + "\t\n";
