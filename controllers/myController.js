@@ -67,12 +67,7 @@ async function main( messageObject ) {
 
     const transporter = await createTransporter();
 
-  await transporter.sendMail({
-    from: 'contact@bartdorityportfolio.online',
-    to: 'b0rgbart3@gmail.com',
-    subject: 'Test Email via SES',
-    text: 'Hello from AWS SES + Secrets Manager!',
-  });
+
 
   // send mail with defined transport object
   // let info = await transporter.sendMail({
@@ -102,16 +97,24 @@ async function main( messageObject ) {
   htmlMessage += "<p>----------</p><p>End of transmission.</p>";
   htmlMessage += "</div>";
 
+    await transporter.sendMail({
+    from: 'contact@bartdorityportfolio.online',
+    to: 'b0rgbart3@gmail.com',
+    subject: 'Test Email via SES',
+    text: textMessage,
+    html: htmlMessage
+  });
 
-  let info = await transporter.sendMail({
-    from: 'contact@bartdorityportfolio.online', // sender address
-    to: "b0rgBart3@gmail.com, bartdority@gmail.com", // list of receivers
-    subject: "A Message from BartDorityPortfolio.online", // Subject line
-    text: textMessage, // plain text body
-    html: htmlMessage, // html body
-  })
 
-  console.log("Message sent: %s", info.messageId);
+  // let info = await transporter.sendMail({
+  //   from: 'contact@bartdorityportfolio.online', // sender address
+  //   to: "b0rgBart3@gmail.com, bartdority@gmail.com", // list of receivers
+  //   subject: "A Message from BartDorityPortfolio.online", // Subject line
+  //   text: textMessage, // plain text body
+  //   html: htmlMessage, // html body
+  // })
+
+  // console.log("Message sent: %s", info.messageId);
   //return info.messageId;
   // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
 
