@@ -100,7 +100,7 @@ async function main( messageObject ) {
     await transporter.sendMail({
     from: 'contact@bartdorityportfolio.online',
     to: 'b0rgbart3@gmail.com',
-    subject: 'Test Email via SES',
+    subject: 'Contact from Portfolio Website',
     text: textMessage,
     html: htmlMessage
   });
