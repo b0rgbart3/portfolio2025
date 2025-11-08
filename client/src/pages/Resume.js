@@ -106,6 +106,62 @@ function Resume() {
 </ul>
 
 <br></br>
+
+<h2>Experience</h2>
+
+<div className='experience'>
+  <div className='logoBox'>
+  <a href='https://ddworks.org'>
+    <img src={GridLogo} /></a>
+  </div>
+  <div className='worksBox'>
+
+  <p><strong>Front End Software Engineer</strong>, <span className='nobr'>Grid Dynamics - San Francisco, CA, 2021 – Current</span>
+<br></br>
+<strong></strong></p>
+<p>
+Full Stack web development with focus on the UI.  Working with a team on a public facing Fin-Tech website.  Platform is based on Typescript and React for the UI and NodeJS for the middlewear,
+using Elastic Search, and various custom micro-service API endpoints. Mentoring a team of 3 UI developers, and working in an integrated pod of 10-12 team members including back-end engineers, designers and product owners. Our sprints are 2 weeks long and we release code every other month.</p>
+  </div>
+</div>
+
+<div className='experience'>
+  <div className='logoBox'>
+  <a href='https://ddworks.org'>
+    <img src={DDWorksLogo} /></a>
+  </div>
+  <div className='worksBox'>
+
+  <p><strong>Self Employed Designer and Full Stack Developer</strong>, <span className='nobr'>Dority Design Works - San Francisco, CA, 2005 – Current</span>
+<br></br>
+<strong></strong></p>
+<p>
+As an independant contractor, I design, build and maintain my client’s websites. I build mobile-friendly, data-driven websites and mobile apps with responsive layouts and restful API’s.  These projects are hosted on DreamHost, Heroku and AWS cloud platforms. I have very satisfied and long term clients, and my work received a Silver Caddy award for the Jeep Liberty website, and an IACP award in the New Media and Broadcast category for the Jacques Pépin website.
+</p>
+  </div>
+</div>
+<br></br>
+<h2>Education</h2>
+<div className='education'>
+<div className='edLogos'>
+      <img src={UCB} />
+      <br></br>
+      <img src={CCSF} />
+      <br></br>
+      <img src={Pratt} />
+</div>
+<div>
+<ul>
+<li>
+Professional Certificate in Full Stack Web Development and Coding<br></br>UC Berkeley Extension Coding Bootcamp</li>
+<li>
+Professional Certificate in iPhone Programming<br></br> City College of San Francisco</li>
+<li>
+Bachelor of Fine Arts in Computer Graphics<br></br>Pratt Institute, School of Art and Design, Brooklyn NY</li>
+</ul>
+</div></div>
+
+<br></br>
 <h2>Technical Skills</h2>
 
 <div className='skillRow1'>
@@ -113,7 +169,7 @@ function Resume() {
 <div className='skillTitle'>Programming Languages</div>
 <div className='skillCol2'>
           <div className='skill'>Typescript</div>
-        <div className='year'>2 years</div>
+        <div className='year'>3 years</div>
         <div className='skill'>Javascript</div>
         <div className='year'>5 years</div>
         <div className='skill'>PHP</div>
@@ -124,8 +180,6 @@ function Resume() {
         <div className='year'>1 year</div>
      
         <div className='skill'>Objective C</div>
-        <div className='year'>1 year</div>
-        <div className='skill'>Typescript</div>
         <div className='year'>1 year</div>
         <div className='skill'>Python</div>
         <div className='year'>1 year</div>
@@ -153,7 +207,7 @@ function Resume() {
       <div className='skillCol2'>
 
         <div className='skill'>React</div>
-        <div className='year'>3 years</div>
+        <div className='year'>4 years</div>
         <div className='skill'>Angular</div>
         <div className='year'>1 year</div>
         <div className='skill'>Flutter</div>
@@ -179,6 +233,9 @@ function Resume() {
       <div className='skillTitle'>Computer Science</div>
       <div className='skillCol2b'>
           
+               <div className='skill'>agile / scrum</div>
+          <div className='skill'>continuous development</div>
+
           <div className='skill'>problem solving</div>
           <div className='skill'>user interface design</div>
 
@@ -206,6 +263,9 @@ function Resume() {
 <div className='skillCol'>
       <div className='skillTitle lastrow'>Supporting Technologies</div>
       <div className='skillCol2'>
+                   <div className='skill'>Gitlab</div>
+                   <div className='skill'>Github</div>
+              <div className='skill'>AWS Cloud Hosting</div>
           <div className='skill'>Mongoose</div>
           <div className='skill'>Sequelize</div>
           <div className='skill'>Node</div>
@@ -229,42 +289,7 @@ function Resume() {
     </div>
   
 
-
 <br></br>
-
-<h2>Experience</h2>
-
-<div className='experience'>
-  <div className='logoBox'>
-  <a href='https://ddworks.org'>
-    <img src={GridLogo} /></a>
-  </div>
-  <div className='worksBox'>
-
-  <p><strong>Full Stack Developer</strong>, <span className='nobr'>Grid Dynamics - San Francisco, CA, 2021 – Current</span>
-<br></br>
-<strong></strong></p>
-<p>
-Full Stack web development with focus on the UI.  Working with a team on a public facing Fin-Tech website.  Platform is based on Typescript and React for the UI and NodeJS for the middlewear,
-using Elastic Search, and various custom micro-service API endpoints. Mentoring a team of 3 UI developers, and working in an integrated pod of 10-12 team members including back-end engineers, designers and product owners. Our sprints are 2 weeks long and we release code every other month.</p>
-  </div>
-</div>
-
-<div className='experience'>
-  <div className='logoBox'>
-  <a href='https://ddworks.org'>
-    <img src={DDWorksLogo} /></a>
-  </div>
-  <div className='worksBox'>
-
-  <p><strong>Self Employed Designer and Full Stack Developer</strong>, <span className='nobr'>Dority Design Works - San Francisco, CA, 2005 – Current</span>
-<br></br>
-<strong></strong></p>
-<p>
-As an independant contractor, I design, build and maintain my client’s websites. I build mobile-friendly, data-driven websites and mobile apps with responsive layouts and restful API’s.  These projects are hosted on DreamHost, Heroku and AWS cloud platforms. I have very satisfied and long term clients, and my work received a Silver Caddy award for the Jeep Liberty website, and an IACP award in the New Media and Broadcast category for the Jacques Pépin website.
-</p>
-  </div>
-</div>
 
 <div className='clientlist'>
 <strong>Abbreviated Client List</strong>
@@ -356,27 +381,12 @@ Technologies used:</strong> Objective C, and X-Code.
 <a href='https://github.com/b0rgbart3/LightBurst' className='pbutton'>github</a></div>
 </div> */}
 
-<h2>Education</h2>
-<div className='education'>
-<div className='edLogos'>
-      <img src={UCB} />
-      <br></br>
-      <img src={CCSF} />
-      <br></br>
-      <img src={Pratt} />
+
+
+<br></br>
 </div>
-<div>
-<ul>
-<li>
-Professional Certificate in Full Stack Web Development and Coding<br></br>UC Berkeley Extension Coding Bootcamp</li>
-<li>
-Professional Certificate in iPhone Programming<br></br> City College of San Francisco</li>
-<li>
-Bachelor of Fine Arts in Computer Graphics<br></br>Pratt Institute, School of Art and Design, Brooklyn NY</li>
-</ul>
-</div>
-</div>
-</div>
+
+
     )
   }
   return (
