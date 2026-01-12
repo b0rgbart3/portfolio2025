@@ -196,11 +196,12 @@
 
 
 .skillTitle {
-    background-color:#dddddd;
+    // background-color:#d1e2e68c;
     padding:4px;
     font-weight: bold;
     padding-left: 10px;
     padding-top: 8px;
+    border-radius: 6px 6px 0 0;
 }
 
 .year {
@@ -307,11 +308,20 @@
   }
 
   .worksBox {
+    // border: 2px solid yellowgreen;
     margin-bottom: 8px;
     margin-top: 4px;
+    padding-right: 20px;
+    padding-left: 8px;
+  }
+
+  .worksBox ul {
+    position: relative;
+    left: -10px;
   }
   .logoBox {
-    width:144px;
+    // border: 2px solid fuchsia;
+    width:95%;
     text-align: center;
   }
 

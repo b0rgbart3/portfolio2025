@@ -206,7 +206,7 @@ function Resume() {
           </div>
           <div className='worksBox'>
 
-            <p><strong>Front End Software Engineer</strong>, <br /><span className='nobr'>Grid Dynamics - San Francisco, CA, 2021 – Current</span>
+            <p><strong>Front End Software Engineer</strong>, <br /><span>Grid Dynamics - San Francisco, CA, 2021 – Current</span>
               <br></br>
               <strong></strong></p>
             <ul>
@@ -249,7 +249,7 @@ using Elastic Search, and various custom micro-service API endpoints. Mentoring 
           </div>
           <div className='worksBox'>
             <br />
-            <p><strong>Freelance Web Developer / UI Engineer</strong>, <span className='nobr'>Dority Design Works - San Francisco, CA, 2005 – Current</span>
+            <p><strong>Freelance Web Developer / UI Engineer</strong>, <span>Dority Design Works - San Francisco, CA, 2005 – Current</span>
               <br></br>
               <strong></strong></p>
             {/* <p>

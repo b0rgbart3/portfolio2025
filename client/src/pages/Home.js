@@ -58,8 +58,12 @@ function Home() {
     return (
  
         <div className="homebio">
-          {bio} <br />
-          {bio2}<br />
+          {bio}
+          <p>
+          With a background in design, animation, and advertising,&nbsp;<nobr>I care about both</nobr> user experience and system architecture. <nobr>I enjoy collaborating</nobr> with product designers and engineers to develop elegant solutions to complex 
+          problems. <nobr>I’m endlessly curious </nobr>and always learning.</p>
+
+          
             <div className="sublinks">
               <Link to="/Skills">
                 <div className={"mbutton "}>Skills</div>
@@ -83,7 +87,7 @@ function Home() {
       return (
         <div className="homebodyMobile">
         <BioBlock />
-        <p className="shieldTitle">Current Development Stack:</p>
+        <p className="shieldTitle">Preferred Development Stack:</p>
         <div className="shieldGroup group">
           <div className="shieldContainer">
             <img src={react} className="shield" alt="shield" />

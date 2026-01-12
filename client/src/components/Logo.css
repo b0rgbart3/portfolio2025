@@ -29,3 +29,9 @@
     margin-top:0;
     margin-bottom: 8px;
 }
+
+.kerned {
+  letter-spacing: -0.02em; 
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga";
+}
