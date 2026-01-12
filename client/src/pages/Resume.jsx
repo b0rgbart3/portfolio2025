@@ -318,7 +318,7 @@ As an independant contractor, I design, build and maintain my client’s website
         <br></br>
 
         <div className='clientlist'>
-          <strong>Abbreviated Client List</strong>
+          <h2>Abbreviated Client List</h2>
           <ul className='clients'>
 
             <li>
