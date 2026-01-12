@@ -15,6 +15,17 @@
   font-size:24px;
   text-align:left;
   font-family: futura-pt, sans-serif;
-  margin-top:0px;
+  margin-top:6px;
   padding-right:20px;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  color: rgb(27, 124, 157);
+  line-height: 1.5em;
+    font-family: futura-pt, sans-serif;
+    font-size: 20px;
+    padding-top:0;
+    margin-top:0;
+    margin-bottom: 8px;
 }

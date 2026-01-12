@@ -1,7 +1,9 @@
 import React from "react";
-import mug from "../images/bartdority_pic2.jpg";
+import mug from "../images/bart_in_headphones.jpg";
 import sql from "../images/shields/sql.png";
 import express from "../images/shields/express.png";
+import mongo from "../images/shields/mongo.png";
+import mongoose from "../images/shields/mongoose.png";
 import react from "../images/shields/react.png";
 import node from "../images/shields/node.png";
 import sequelize from "../images/shields/sequelize.png";
@@ -17,9 +19,13 @@ function Home() {
 
   let bio = `Passionate about the web, and addicted to learning. I apply the Bauhaus school of design theory to software development with a focus on reducing cognitive friction to create intuitive interfaces. As a digital polyglot, I have the knowledge and understanding of a broad range of creative and web development technologies, which allows me to think in terms of common principles and design systems. I’m currently looking to join a team of engineers who enjoy collaborating to build apps that benefit the people who use them. `;
 
-  bio = `I have a deep knowledge of a broad range of web development technologies and computer science. I also have extensive experience in advertising, animation, marketing and design. I build applications that people find intuitive, and I’m looking to join a team of engineers that enjoy collaborating and value life-long learning.`;
+  bio = `I have a deep knowledge of a broad range of web development technologies and computer science. 
+  I also have extensive experience in advertising, animation, marketing and design. 
+  I build apps that people find intuitive, and I’m looking to join a team of engineers that enjoy collaborating and value life-long learning.`;
 
 
+  bio = "I’m a software engineer with a passion for well-designed interfaces. I work across the stack, with a focus on building intuitive, responsive web applications using modern JavaScript frameworks.";
+  let bio2 = "With a background in design, animation, and advertising, I care about both user experience, and system architecture. I enjoy collaborating with product designers and engineers to develop elegant solutions to complex problems. I’m endlessly curious and always learning."
 
   function Desktop() {
       return (
@@ -36,7 +42,7 @@ function Home() {
     </div>
 
     <div className={"bartsShields "}>
-      <p className="shieldTitle">Current Preferred Development Stack:</p>
+      <p className="shieldTitle">Preferred Development Stack:</p>
 
       <Shield shieldNumber="0" animate="true" />
       <Shield shieldNumber="1" animate="true"  />
@@ -53,6 +59,7 @@ function Home() {
  
         <div className="homebio">
           {bio} <br />
+          {bio2}<br />
             <div className="sublinks">
               <Link to="/Skills">
                 <div className={"mbutton "}>Skills</div>
@@ -89,10 +96,10 @@ function Home() {
             <img src={express} className="shield" alt="shield" />
           </div>
           <div className="shieldContainer">
-            <img src={sql} className="shield" alt="shield" />
+            <img src={mongo} className="shield" alt="shield" />
           </div>
           <div className="shieldContainer">
-            <img src={sequelize} className="shield" alt="shield" />
+            <img src={mongoose} className="shield" alt="shield" />
           </div>
         </div>
       </div>

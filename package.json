@@ -15,9 +15,9 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm i & npm run build",
-      "client": "npm start --prefix client",
-  "server": "nodemon server.js",
-  "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +27,7 @@
     "sass": "^1.54.0"
   },
   "dependencies": {
+    "aws-sdk": "^2.1692.0",
     "axios": "^1.10.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",

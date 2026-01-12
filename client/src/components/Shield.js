@@ -5,12 +5,14 @@ import express from "../images/shields/express.png";
 import node from "../images/shields/node.png";
 import sql from "../images/shields/sql.png";
 import sequelize from "../images/shields/sequelize.png";
+import mongo from "../images/shields/mongo.png";
+import mongoose from "../images/shields/mongoose.png";
 
 
 function Shield(props) {
   const [shieldStyle, setShieldStyle] = useState("hidden");
-  let shields = [ react, node, express, sql, sequelize ];
-  let techs = ['React', 'NodeJS', 'Express', 'SQL', 'Sequelize'];
+  let shields = [ react, node, express, mongo, mongoose ];
+  let techs = ['React', 'NodeJS', 'Express', 'Mongo', 'Mongoose'];
   let imageSource = shields[props.shieldNumber];
 
 
