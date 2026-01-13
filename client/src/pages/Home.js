@@ -1,5 +1,5 @@
 import React from "react";
-import mug from "../images/bart_in_headphones.jpg";
+import mug from "../images/bart_in_headphones2.jpg";
 import sql from "../images/shields/sql.png";
 import express from "../images/shields/express.png";
 import mongo from "../images/shields/mongo.png";
@@ -24,8 +24,8 @@ function Home() {
   I build apps that people find intuitive, and I’m looking to join a team of engineers that enjoy collaborating and value life-long learning.`;
 
 
-  bio = "I’m a software engineer with a passion for well-designed interfaces. I work across the stack, with a focus on building intuitive, responsive web applications using modern JavaScript frameworks.";
-  let bio2 = "With a background in design, animation, and advertising, I care about both user experience, and system architecture. I enjoy collaborating with product designers and engineers to develop elegant solutions to complex problems. I’m endlessly curious and always learning."
+  bio = "I’m a software engineer with a passion for well-designed interfaces. I work across the stack with a focus on building intuitive, responsive applications using JavaScript frameworks.";
+  // let bio2 = "With a background in design, animation, and advertising, I care about both the user experience, and the system architecture. I enjoy collaborating with product designers and engineers to develop elegant solutions to complex problems. I’m endlessly curious and always learning."
 
   function Desktop() {
       return (
@@ -60,7 +60,7 @@ function Home() {
         <div className="homebio">
           {bio}
           <p>
-          With a background in design, animation, and advertising,&nbsp;<nobr>I care about both</nobr> user experience and system architecture. <nobr>I enjoy collaborating</nobr> with product designers and engineers to develop elegant solutions to complex 
+          With a background in design, animation, and advertising,&nbsp;<nobr>I care about both</nobr> the user experience and the system architecture. <nobr>I enjoy collaborating</nobr> with product designers and engineers to develop elegant solutions to complex 
           problems. <nobr>I’m endlessly curious </nobr>and always learning.</p>
 
           
