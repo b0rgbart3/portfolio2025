@@ -249,7 +249,7 @@ using Elastic Search, and various custom micro-service API endpoints. Mentoring 
           </div>
           <div className='worksBox'>
             <br />
-            <p><strong>Freelance Web Developer / UI Engineer</strong>, <span>Dority Design Works - San Francisco, CA, 2005 – Current</span>
+            <p><strong>Freelance Web Developer / UI Engineer</strong><br /><span>Dority Design Works - San Francisco, CA, 2005 – Current</span>
               <br></br>
               <strong></strong></p>
             {/* <p>
