@@ -14,19 +14,19 @@ function Skills() {
     {
     "tech": "React",
     "shield": "react",
-    "duration": "4 years",
+    "duration": "5 years",
     "projects": "Grid Dynamics"
     },
         {
     "tech": "TypeScript",
     "shield": "ts",
-    "duration": "3 years",
+    "duration": "4 years",
     "projects": "Grid Dynamics"
     },
             {
       "tech": "Javascript",
       "shield": "js",
-      "duration": "10+ years",
+      "duration": "7+ years",
       "projects": "All"
       },
         {
@@ -56,7 +56,7 @@ function Skills() {
     {
         "tech": "CSS 3",
         "shield": "css",
-        "duration": "10+ years",
+        "duration": "7+ years",
         "projects": "All"   
     },
 

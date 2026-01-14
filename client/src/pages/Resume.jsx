@@ -122,9 +122,8 @@ function Resume() {
         <br></br>
 
         <h2>Skills</h2>
-
         <div className='skillRow'>
-
+            <div className='listBlock'>
           <div className='skillTitle'>Front-End & UI Engineering</div>
           <ul>
             <li>
@@ -138,28 +137,68 @@ function Resume() {
             <li>Next.js</li>
             <li>state management (MobX)</li>
             <li>responsive and mobile-first design</li>
-            <li>accessibility-focused UI development</li>
           </ul>
+          </div>
+              <div className='listBlock'>
           <div className='skillTitle'>Design & Prototyping</div>
 
           <ul>
             <li>
-              Adobe Creative Suite (Photoshop, Illustrator)
+              Adobe Creative Suite<br />(Photoshop, Illustrator)
             </li>
             <li>
               Figma
             </li>
           </ul>
+          </div>
+          <div className='listBlock'>
 
+          <div className='skillTitle'>
+            AI-Assisted Development</div>
+          <ul>
+            <li>ChatGPT</li>
+            <li>Claude</li>
+            <li>Gemini</li>
+            <li>Perplexity</li>
+            <li>Grok</li>
+          </ul></div>
+
+{/* <div className="columnBreak" /> */}
+
+  <div className='listBlock'>
+
+          <div className='skillTitle'>Back-End & API Integration</div>
+          <ul>
+            <li>Node.js
+            </li>
+            <li>
+              Express</li>
+            <li>RESTful APIs</li>
+            <li>PHP</li>
+            <li>API-driven architectures</li>
+            <li>asychronous data handling</li>
+          </ul></div>
+
+            <div className='listBlock'>
+
+          <div className='skillTitle'>Databases</div>
+
+          <ul>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>PostreSQL</li>
+          </ul></div>
+
+           <div className="listBlock forceNextColumn">
           <div className='skillTitle'>Testing & Quality</div>
 
           <ul>
             <li>
-              Jest with Enzyme, component and unit testing
+              Jest with Enzyme<br />component and unit testing
             </li>
-          </ul>
-          <br /><br /><br />
+          </ul></div>
 
+  <div className='listBlock'>
           <div className='skillTitle'>DevOps & Tooling</div>
           <ul>
             <li>
@@ -172,28 +211,21 @@ function Resume() {
             <li>Heroku</li>
             <li>VS Code</li>
             <li>CI/CD workflows</li>
-          </ul>
-
-
-          <div className='skillTitle'>Back-End & API Integration</div>
+          </ul></div>
+            
+   <div className='listBlock'>
+          <div className='skillTitle'>Additional Experience</div>
           <ul>
-            <li>Node.js
-            </li>
-            <li>
-              Express</li>
-            <li>RESTful APIs</li>
-            <li>PHP</li>
-            <li>API-driven architectures</li>
-            <li>asychronous data handling</li>
-          </ul>
+            <li>Angular</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Ruby</li>
+            <li>Objective-C</li>
+            <li>Swift</li>
+            <li>X-Code</li>
+          </ul></div>
 
-          <div className='skillTitle lastrow'>Databases</div>
 
-          <ul>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>PostreSQL</li>
-          </ul>
         </div>
 
 
@@ -240,7 +272,7 @@ using Elastic Search, and various custom micro-service API endpoints. Mentoring 
         </div>
 
 
-        
+
 
         <div className='experience'>
           <div className='logoBox'><br />
@@ -281,67 +313,63 @@ As an independant contractor, I design, build and maintain my client’s website
         <br></br>
         <h2>Education</h2>
         <div className='education'>
-          <div className='edLogos'>
-            <img src={OutSkill} />
-            <br />
-            <img src={UCB} />
-            <br></br>
-            <img src={CCSF} />
-            <br></br>
-            <img src={Pratt} />
-          </div>
-          <div>
-            <ul>
-              <li>
-                <b>Certificate, Generative AI Mastermind </b>- Outskill.com, 2025
-              </li>
-              <li>
-                <b>
-                  Certificate, Full Stack Web Development</b>– UC Berkeley Extension, 2019</li>
 
-              {/* Professional Certificate in Full Stack Web Development and Coding<br></br>UC Berkeley Extension Coding Bootcamp</li> */}
-              <li><b>
-                Certificate, iPhone Programming </b>– City College of San Francisco, 2016
-              </li>
-              {/* Professional Certificate in iPhone Programming<br></br> City College of San Francisco</li> */}
-              <li><b>
-                BFA, Computer Graphics </b>– Pratt Institute, Brooklyn, NY
-              </li>
-              {/* Bachelor of Fine Arts in Computer Graphics<br></br>Pratt Institute, School of Art and Design, Brooklyn NY</li> */}
-            </ul>
+          <div className='edRow'><div className='edLogo'><img src={OutSkill} /></div><div className='edItem'>
+            <b>Certificate, Generative AI Mastermind</b> - <nobr>Outskill.com, 2025</nobr>
           </div></div>
 
+
+          <div className='edRow'><div className='edLogo'><img src={UCB} /></div><div className='edItem'><b>Certificate, Full Stack Web Development</b> – <nobr>UC Berkeley Extension, 2019</nobr></div></div>
+
+
+          {/* Professional Certificate in Full Stack Web Development and Coding<br></br>UC Berkeley Extension Coding Bootcamp</li> */}
+
+          <div className='edRow'><div className='edLogo'><img src={CCSF} /></div><div className='edItem'>     <b>
+            Certificate, iPhone Programming </b>– <nobr>City College of San Francisco, 2016</nobr></div></div>
+
+
+          {/* Professional Certificate in iPhone Programming<br></br> City College of San Francisco</li> */}
+
+          <div className='edRow'> <div className='edLogo'>    <img src={Pratt} /></div><div className='edItem'>   <b>
+            BFA, Computer Graphics </b>– <nobr>Pratt Institute, Brooklyn, NY</nobr></div></div>
+
+
+          {/* Bachelor of Fine Arts in Computer Graphics<br></br>Pratt Institute, School of Art and Design, Brooklyn NY</li> */}
+
+        </div>
+
         <br></br>
-        
+
 
 
         <br></br>
 
         <div className='clientlist'>
           <h2>Abbreviated Client List</h2>
-          <ul className='clients'>
+          <div className='abbreviatedClientList'>
+            <ul className='clients'>
 
-            <li>
-              Rick Crane Consulting, San Francisco, CA
-            </li>
-            <li>KQED - Interactive, San Francisco, CA</li>
-            <li> Willow Kelly, Charlottesville, VA</li>
-            <li>Jane Meredith, Author, Sydney, Australia</li>
-            <li>Jerry Frost, Artist, San Francisco, CA</li>
-            <li>Suzanne Sterling, Portland, OR</li>
-            <li>Ravyn Stanfield, Author, Portland, OR</li>
-            <li>Reclaiming Collective, San Francisco, CA</li>
-            <li>Organic, Inc, Bloomfield Hills, MI</li>
-            <li>A.S.K. Learning, San Francisco, CA</li>
-            <li>ClearPath Media, Mountain View, CA</li>
-            <li>Technesis, Inc., Mountain View, CA</li>
-            <li>CloudBreak Software, Mountain View, CA</li>
-            <li>Nyquist Design, Los Gatos, CA</li>
-            <li>Doremus Advertising, San Francisco, CA</li>
-            <li>Grey Advertising, San Francisco, CA</li>
+              <li>
+                Rick Crane Consulting, San Francisco, CA
+              </li>
+              <li>KQED - Interactive, San Francisco, CA</li>
+              <li> Willow Kelly, Charlottesville, VA</li>
+              <li>Jane Meredith, Author, Sydney, Australia</li>
+              <li>Jerry Frost, Artist, San Francisco, CA</li>
+              <li>Suzanne Sterling, Portland, OR</li>
+              <li>Ravyn Stanfield, Author, Portland, OR</li>
+              <li>Reclaiming Collective, San Francisco, CA</li>
+              <li>Organic, Inc, Bloomfield Hills, MI</li>
+              <li>A.S.K. Learning, San Francisco, CA</li>
+              <li>ClearPath Media, Mountain View, CA</li>
+              <li>Technesis, Inc., Mountain View, CA</li>
+              <li>CloudBreak Software, Mountain View, CA</li>
+              <li>Nyquist Design, Los Gatos, CA</li>
+              <li>Doremus Advertising, San Francisco, CA</li>
+              <li>Grey Advertising, San Francisco, CA</li>
 
-          </ul>
-        </div>
+            </ul>
+          </div></div>
 
         {/* <h2>Recent Projects:</h2>
 <div className='projects'> */}

@@ -24,7 +24,7 @@ function Home() {
   I build apps that people find intuitive, and I’m looking to join a team of engineers that enjoy collaborating and value life-long learning.`;
 
 
-  bio = "I’m a software engineer with a passion for well-designed interfaces. I work across the stack with a focus on building intuitive, responsive applications using JavaScript frameworks.";
+  bio = "I’m a software engineer with a passion for well-designed interfaces. I work across the stack with a focus on building intuitive and responsive apps using modern JavaScript frameworks.";
   // let bio2 = "With a background in design, animation, and advertising, I care about both the user experience, and the system architecture. I enjoy collaborating with product designers and engineers to develop elegant solutions to complex problems. I’m endlessly curious and always learning."
 
   function Desktop() {
