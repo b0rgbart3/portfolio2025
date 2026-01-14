@@ -9,6 +9,16 @@
         "tech": ["React","Node.js","Express","MongoDB","Mongoose"],
         "shields": ["react","node","express","mongo","mongoose"]
     },
+    {
+        "title": "Moon-Math.online",
+        "description": "Full Stack MERN blog that allows authors to blog articles.  Includes user logins image uploads, etc.",
+        "images": ["moonmath.jpg"],   
+        "live": "https://moon-math.online",
+        "github": "https://github.com/b0rgbart3/reactBlog",
+        "features": [""],
+        "tech": ["React","Node.js","Express","MongoDB","Mongoose"],
+        "shields": ["react","node","express","mongo","mongoose"]
+    },
         {
         "title": "JerryFrost.com",
         "description": "This is a custom portfolio website designed and built for Jerry Frost, an artist in San Francisco, California.",
