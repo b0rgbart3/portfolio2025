@@ -6,23 +6,33 @@ const PORT = 8000;
 
 app.use(express.json());
 
-// 🔥 Serve public folder FIRST
-app.use(express.static(path.join(__dirname, "public")));
+/* =========================
+   Flutter Web (SCOPED)
+   ========================= */
+app.use(
+  "/lightburst",
+  express.static(path.join(__dirname, "public/lightburst"))
+);
 
-// 🔥 Flutter entry point
-app.get("/lightburst", (req, res) => {
-  res.sendFile(path.join(__dirname, "public/lightburst/index.html"));
-});
-
-// 🔥 Flutter deep links
 app.get("/lightburst/*", (req, res) => {
   res.sendFile(path.join(__dirname, "public/lightburst/index.html"));
 });
 
-// API routes AFTER static
+/* =========================
+   API Routes
+   ========================= */
 const routes = require("./routes");
 app.use(routes);
 
+/* =========================
+   React App (ROOT OWNER)
+   ========================= */
+app.use(express.static(path.join(__dirname, "client/build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build/index.html"));
+});
+
 app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+  console.log(`🌎 ==> Server running on port ${PORT}`);
 });
