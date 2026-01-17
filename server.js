@@ -19,16 +19,19 @@ app.get("/lightburst/*", (req, res) => {
 });
 
 /* =========================
-   API Routes
+   React Static Files FIRST
+   ========================= */
+app.use(express.static(path.join(__dirname, "client/build")));
+
+/* =========================
+   API / Backend Routes
    ========================= */
 const routes = require("./routes");
 app.use(routes);
 
 /* =========================
-   React App (ROOT OWNER)
+   React Catch-All (ONLY ONE)
    ========================= */
-app.use(express.static(path.join(__dirname, "client/build")));
-
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client/build/index.html"));
 });

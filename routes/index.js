@@ -37,11 +37,11 @@ router.get("/BART_DORITY_resume.pdf", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build/BART_DORITY_resume.pdf"));
 
 });
-router.get("*", (req, res) => {
-  console.log("Got to the catch-all block of the router.");
+// router.get("*", (req, res) => {
+//   console.log("Got to the catch-all block of the router.");
 
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
-});
+//   res.sendFile(path.join(__dirname, "../client/build/index.html"));
+// });
 
 
 
