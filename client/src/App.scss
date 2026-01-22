@@ -139,7 +139,8 @@ a {
   margin-bottom:20px;
   position:relative;
   min-width:130px;
-  left:calc(90% - 150px);
+  right: 0px;
+  top: 0px;
 }
 
 .mbuttonEndorse:hover {
@@ -170,3 +171,30 @@ a {
   zoom: 1;
   /* IE6&7 */
 }
+
+.pageContent {
+    font-family: futura-pt, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+// @media only screen and (max-width:740px) {
+// .mbuttonEndorse {
+//   top: 30px;
+//   right: 20px;
+// }
+
+//   }
+
+//   @media only screen and (min-width:1240px) {
+// .mbuttonEndorse {
+//   top: 180px;
+//   right: 20%;
+// }
+
+//   }
