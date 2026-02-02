@@ -14,7 +14,65 @@
   display:block;
   vertical-align: top;
   margin-top:0px;
+
 }
+
+.AITools {
+  position: relative;
+  top: -50px;
+  right: 0px;
+  height: 1px;
+  width: 1px;
+}
+.AITool1 {
+    border: 8px solid rgb(111, 149, 175);
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: relative;
+  top: -270px;
+  right: -340px;
+      background-image: url('../images/shields/gemini.png');
+   background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+     box-shadow: 0 0 18px rgb(0, 153, 255);
+     text-align: center;;
+}
+.AITool2 {
+    border: 8px solid rgb(111, 149, 175);
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: relative;
+  top: -530px;
+  right: -380px;
+    background-image: url('../images/shields/claude.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+         box-shadow: 0 0 18px rgb(0, 153, 255);
+     text-align: center;;
+}
+.AITool3 {
+    border: 8px solid rgb(111, 149, 175);
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: relative;
+  top: -790px;
+  right: -350px;
+  background-image: url('../images/shields/chat.png');
+  background-size: 100%;
+  height: 120px;
+  width: 120px;
+         box-shadow: 0 0 18px rgb(89, 189, 255);
+     text-align: center;;
+}
+
 
 .mugContainer {
     box-sizing: border-box;
@@ -79,6 +137,7 @@
   min-width:506px;
   display:none;
   margin-top: 10px;
+
 }
 
 
@@ -126,6 +185,16 @@ p.shieldTitle {
 
 @media only screen and (min-width:740px) {
 
+  .AITools {
+    z-index: 500;
+  position: relative;
+  top: 90px;
+  right: 130px;
+  height: 20px;
+  width: 20px;
+}
+
+
   .homeColumn1 {
     width:45%;
     box-sizing: border-box;
@@ -165,5 +234,31 @@ p.shieldTitle {
   .bartsShields.state2 {
     opacity:1;
   }
+
+}
+
+@media only screen and (min-width:850px) {
+
+  .AITools {
+    z-index: 500;
+  position: relative;
+  top: 50px;
+  right: 70px;
+  height: 20px;
+  width: 20px;
+}
+
+}
+
+@media only screen and (min-width:980px) {
+
+  .AITools {
+    z-index: 500;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+}
 
 }

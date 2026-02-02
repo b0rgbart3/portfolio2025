@@ -65,7 +65,7 @@ function Skills() {
       ],
     },
     {
-      category: "AI-Assisted Development",
+      category: "AI Tools",
       skills: [
         {
           tech: "Chat GPT",
