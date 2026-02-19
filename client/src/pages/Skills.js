@@ -68,8 +68,16 @@ function Skills() {
       category: "AI Tools",
       skills: [
         {
+          tech: "AntiGravity",
+          shield: "antigravity",
+        },
+        {
           tech: "Chat GPT",
           shield: "chat",
+        },
+        {
+          tech: "Claude Code",
+          shield: "claude",
         },
         {
           tech: "Claude",
