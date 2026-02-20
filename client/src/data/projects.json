@@ -3,7 +3,7 @@
         "title": "My Birthday Tracker",
         "description": "Fullstack MERN app - Vibe coded with AntiGravity.  This is a fullstack application with a UI built with React, a cloud based MongoDB database, and a backend server written in Node.js.  The server runs a daily cron job to look for upcoming birthdays and sends me an email when they are a week out.",
         "images": ["birthdayTracker.jpg"],   
-        "live": "https://bartdorityportfolio.online/birthday_tracker/",
+        "live": "https://birthdaytracker.bartdorityportfolio.online/",
         "github": "https://github.com/b0rgbart3/birthday_tracker",
         "features": [""],
         "tech": ["React","Node.js","Express", "MongoDB","Mongoose", "Antigravity"],
