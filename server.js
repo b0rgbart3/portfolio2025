@@ -11,12 +11,17 @@ app.use(express.json());
    ========================= */
 app.use(
   "/lightburst",
-  express.static(path.join(__dirname, "public/lightburst"))
+  express.static(path.join(__dirname, "public/lightburst")),
 );
 
 app.get("/lightburst/*", (req, res) => {
   res.sendFile(path.join(__dirname, "public/lightburst/index.html"));
 });
+
+app.use(
+  "/birthday_tracker",
+  express.static(path.join(__dirname, "public/birthday_tracker")),
+);
 
 /* =========================
    React Static Files FIRST
